@@ -1,0 +1,1 @@
+Write C programs to implement a client-server application using Message Queue. The client will take a bit-stream of 2 bytes and send it to the server. The server will modify the bit-stream by adding a '1' bit after each consecutive five '0' bits and send the stream back to the client. The client will print it.

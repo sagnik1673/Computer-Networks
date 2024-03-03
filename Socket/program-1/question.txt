@@ -1,0 +1,1 @@
+Write C programs to implement a simple client-server application using Unix File socket. The client will send an IPv4 address (a.b.c.d) to the server. The server will verify whether the address is valid or not and send back '1' for valid IP or '0' for invalid IP to the client.

@@ -28,7 +28,6 @@ int main()
 	strcpy(some_data.some_text,buffer);
 	if(msgsnd(msgid,(void *)&some_data,MAX,0)==-1)
 		printf("Bit-stream not sent. Size has exceeded 2 bytes.\n");
-	long int msg_to_rec=0;
 	msgrcv(msgid,(void *)&some_data,MAX,2,0);
 	printf("Modified bit-stream recieved from server: %s\n",some_data.some_text);
 	msgctl(msgid,IPC_RMID,0);
